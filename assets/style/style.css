@@ -114,7 +114,7 @@ a {
 .hero {
       position: absolute;
       top: 0;
-      background-image: url("/assets/media/banner.jpg");
+      background-image: url( "/../assets/media/banner.jpg");
       width: 100%;
       background-size: cover;
       height: 90vh;
@@ -339,20 +339,31 @@ button {
     
 
 }
+.data_container span {
+     font-size: 18px;
+     color: white;
+     font-weight: 800;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     vertical-align: middle;
+     margin-left: 10px;
+}
 
 .ninety_prc {
-    background-color: rgb(233, 41, 41);
+    background-color: rgb(240, 53, 53);
     width: 90%;
     height: 100%;
+
 }
 
 .eighty_prc {
-    background-color: rgb(233, 41, 41);
+    background-color: rgb(240, 53, 53);
     width: 80%;
     height: 100%;
 }
 .seventy_prc {
-    background-color: rgb(233, 41, 41);
+    background-color: rgb(240, 53, 53);
     width: 70%;
     height: 100%;
 }
@@ -396,14 +407,23 @@ form input {
     height: 50px;
     margin: 1.2% 0;
     border-color: rgb(87, 82, 82);
+    padding-bottom: 3%;
+    padding-left: 2%;
+    font-size: 20px;
+    color: rgb(88, 86, 86);
+    border-color: rgb(206, 198, 198);
 
 }
 .massage_text {
     height: 150px ;
+    padding-bottom: 20%;
 
 }
 .submit_button {
     background-color: rgb(234,81,62);
+    color: white;
+    padding-top: 2.5%;
+    font-weight: 600;
 }
 
 /* --------footer------- */
@@ -524,6 +544,7 @@ footer a {
 .social_media_icons_gallery a{
   
         color: white;
+        font-size: 20px;
 }
 
   
@@ -579,6 +600,9 @@ footer a {
 .gallery_page_main img {
     width: 100%;
     margin-bottom: 8%;
+    border: 3px solid black;
+    border-radius: 8px;
+
 }
 
 
