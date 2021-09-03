@@ -114,7 +114,7 @@ a {
 .hero {
       position: absolute;
       top: 0;
-      background-image: url( "/../assets/media/banner.jpg");
+      background-image: url( "../media/banner.jpg");
       width: 100%;
       background-size: cover;
       height: 90vh;
