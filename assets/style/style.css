@@ -1,0 +1,585 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* ---------custom-style----------- */
+
+  /*-----------General-----------  */
+
+
+body {
+    font-family: "Open-sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+     text-align: center;
+     padding-bottom: 20px;
+
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.heading_h2 {
+    font-size: 35px;
+    padding-top: 8%;
+    font-weight: 600;
+    display: inline-block;
+    color: rgb(87, 82, 82);
+    text-decoration: 3px underline;
+    padding-bottom: 1.5%;
+    
+}
+.heading_p {
+    color: rgb(87, 82, 82);
+    font-size: 20px;
+    margin-bottom: 3%;
+
+}
+
+
+.container{
+    margin: 0 10%;
+}
+
+
+.flex {
+      display: flex;
+      align-items: center; 
+      justify-content: space-between;
+}
+
+
+
+/* -------home-----main----------- */
+         
+
+.hero_container {
+    width: 100%;
+    height: 70vh;
+}
+
+
+.hero {
+      position: absolute;
+      top: 0;
+      background-image: url("/assets/media/banner.jpg");
+      width: 100%;
+      background-size: cover;
+      height: 90vh;
+      font-size: 25px;
+      
+}
+
+
+.social_media_icons {
+      justify-content: center;
+}
+
+.social_media_icons a {
+      color: rgb(94, 91, 91);
+      vertical-align: middle;
+
+     
+}
+
+.social_media_icons div{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2% 0.5%;
+}
+
+
+/* -----------header --------- */
+
+/* .sticky_header {
+    background-color: white;
+    justify-content: space-between;
+    z-index: 2;} */
+
+
+
+.sticky_header {
+
+    position: sticky;
+    top: 0;
+    margin-top: 6%;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+
+.nav_header {
+      vertical-align: middle;
+      width: 53%;
+      height: 100%;
+      padding-right: 4.5%;
+    
+} 
+  
+.nav_header a {
+      font-size: 18px;
+      color: rgb(29, 25, 25);
+      /* padding: 0 1.6%; */
+      font-weight: 500;
+
+   
+}
+
+.home_red {
+      color: rgb(234,90,71);
+      border-top: 5px solid rgb(234,90,71);
+      padding: 4.3% 0;
+
+}
+
+.header_h3 {
+        padding-left: 20px;  
+        color: red;
+        font-weight: bold;
+        font-size: 30px;
+}
+
+
+/*------------ Main Heading------- */
+
+.main_heading {
+    color: whitesmoke;
+}
+
+.Home_page_h1 { 
+   font-size: 50px;
+   font-weight: bold;
+   vertical-align: middle;
+   border-bottom: 2px solid white;
+   margin-top: 15%;
+   color: whitesmoke;
+   display: inline-block;
+
+}
+.main_heading p {
+    font-weight: 500;
+    margin: 30px 0;
+    
+}
+button {
+    padding: 15px 20px;
+    background-color: rgb(234,81,62);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 2px 0.5 rgb(196, 27, 27);
+    border: rgb(196, 27, 27);
+
+
+}
+
+
+/* ----------circle--------- */
+
+
+.circle_container {
+ justify-content: center;
+    
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(104, 97, 97);
+    margin: 10px;
+}
+.dark {
+    background-color: black;
+}
+
+
+/* ------------our services-------- */
+ 
+.Home_page img {
+    width: 22.5%;
+    margin: 2% 0;
+
+}
+
+
+
+.box
+{
+    width: 22.5%;
+    height: 37vh;
+    margin: 2% 0;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+
+}
+.color_box1 {
+    background-color: rgb(92,189,157);
+
+}
+.color_box2 {
+    background-color: rgb(230,127,49);
+
+}
+.color_box3 {
+    background-color: rgb(57,152,219);
+}
+.color_box4 {
+    background-color: rgb(104,205,115);
+}
+
+
+
+/*------- portfolio------  */
+
+.portfolio_image {
+    flex-wrap: wrap;
+}
+
+
+
+/* -------OUR TEAM----design -----*/
+.profile_image img {
+    border-radius: 50%;
+
+} 
+.italic_text{
+    font-style: italic;
+}
+.design_header_h3{
+    font-size: 22px;
+    padding-top: 4%;
+}
+.design_header_p {
+    font-size: 20px ;
+    margin-bottom: 3%; 
+    
+}
+
+
+.article_paragraph {
+    width: 62%;
+    font-size: 20px;
+}
+.article_paragraph p {
+    text-align: left;
+    padding: 2% 0;
+}
+.design_skills_graph {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-between;
+    text-align: left;   
+    padding: 1.5% 0; 
+
+}
+.data_container{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231,231,231);
+    /* margin: 5px; */
+    
+
+}
+
+.ninety_prc {
+    background-color: rgb(233, 41, 41);
+    width: 90%;
+    height: 100%;
+}
+
+.eighty_prc {
+    background-color: rgb(233, 41, 41);
+    width: 80%;
+    height: 100%;
+}
+.seventy_prc {
+    background-color: rgb(233, 41, 41);
+    width: 70%;
+    height: 100%;
+}
+
+
+
+/* --------contact-------- */
+
+.location_map {
+    width: 100%;
+    margin-bottom: 3%;
+}
+.contact_paragraph {
+    width: 50%;
+    font-size: 20px;
+}
+.contact_paragraph p {
+    text-align: left;
+    padding: 2% 0;
+}
+address {
+    text-align: left;
+}
+.red-color{
+    text-decoration: none;
+    color: rgb(233, 41, 41);
+}
+.bottom_space {
+    margin-bottom: 7%;
+}
+
+/*-------- form --------*/
+
+
+form {
+    width: 40%;
+    margin-right: 2%;
+}
+form input {
+    width: 100%;
+    height: 50px;
+    margin: 1.2% 0;
+    border-color: rgb(87, 82, 82);
+
+}
+.massage_text {
+    height: 150px ;
+
+}
+.submit_button {
+    background-color: rgb(234,81,62);
+}
+
+/* --------footer------- */
+
+
+
+
+footer a {
+    padding: 15px 20px;
+    background-color: rgb(234,81,62);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 2px 0.5 rgb(196, 27, 27);
+    border: rgb(196, 27, 27);
+}
+
+
+
+
+
+
+/* ------------------Home page-styling---above ------------ */
+
+/* ------------------Gallery page-styling----below----------- */
+
+/* ------------section----------- */
+
+
+
+.gallery_page_section {
+    display: flex;
+}
+
+.gallery_page_container {
+    width: 25%;
+    height: 100vh;
+}
+
+
+
+/* header */
+
+.gallery_page_header {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(234,81,62);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+  
+}
+
+
+.header_container {
+    width: 25%;
+    height: 100vh;
+}
+
+.home_tab {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 1% 3%;
+
+}
+.aside_upper {
+    padding: 10%;
+}
+
+.aside_upper a {
+    vertical-align: middle;
+    margin-left: 7px;
+    
+}
+
+.aside_upper h2 {
+
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 45px;
+    vertical-align: middle;
+
+}
+
+
+
+.aside_bottom_content h2 {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding: 10%;
+    padding-bottom: 0;
+}
+.aside_bottom_content p {
+    font-size: 20px;
+    color: rgb(24, 21, 21);
+    text-align: left;
+    padding: 10%;
+    padding-top: 2%;
+    padding-right: 20%;
+}
+
+
+
+/* social-media-links */
+.social_media_icons_gallery {
+    padding: 0 10%;
+    width: 75%;
+    padding-bottom: 10%;
+
+}
+.social_media_icons_gallery a{
+  
+        color: white;
+}
+
+  
+.social_media_icons_gallery div{
+      width: 50px;
+      height: 50px;
+      border: 4px solid white;
+      border-radius: 50%;
+      margin: 2% 0.5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+
+}
+
+
+
+
+
+
+/*------------ gallery-section-main-------- */
+
+
+
+.gallery_page_main{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.gallery_page_h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 2% 0;
+    text-align: center;
+}
+.gallery_page_gallery {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.gallery_page_arrange_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery_page_main img {
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+
+
